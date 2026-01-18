@@ -1,0 +1,103 @@
+body {
+    background-image: url("./resources/image/Birthday_pic.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:auto;
+    background-attachment: fixed;  
+    background-color: lightpink;   
+    /*margin: auto; 
+    padding: 10% 20% 30% 20%; */
+    align-content: center;
+
+}
+
+.container {  
+    width: 20%;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;   
+    margin: auto;     
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#login_form {
+    padding: 1%;
+    margin: auto;
+    border: 1px solid black;    
+    background-color: ghostwhite;   
+    background-image: linear-gradient(white, gold); 
+    box-shadow: 0 16px 16px 16px rgba(0,0,0,0.4);     
+    display: None;
+    align-items: center;
+}
+
+#birthday_input, #signup_content {
+    display: none;
+}
+
+.input {
+    x: 300;
+}
+
+button {    
+    border-radius: 10px;
+    /*background-color:olivedrab;*/
+    background: linear-gradient(rgb(226, 224, 228), rgb(32, 3, 64));
+    align-items: center; 
+    color: rgb(244, 239, 241);           
+}
+
+#Initial_login {
+    width: 200px; /* Set a specific width */
+    height: 75px; /* Set a specific height */
+    border-radius: 25px;
+    box-shadow: 0px 8px 16px 10px rgba(0,0,0,0.4);
+    /*linear-gradient(90deg in hsl longer hue, rgb(237, 158, 121), rgb(118, 113, 117));*/
+    background: linear-gradient(rgb(63, 12, 219), rgb(213, 163, 217));
+    font-size: 40px;    
+}
+
+ h1, h3, p {
+    font-weight: bolder;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*animation: slide 3s linear 250ms 1000 alternate both;*/    
+    color: rgb(117, 77, 17);
+
+ }
+ 
+ #signed_page {
+    background-image: url("resources/image/dayTo_bday.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:auto;
+    background-attachment: fixed;  
+    background-color: lightpink;   
+    /*margin: auto; 
+    padding: 10% 20% 30% 20%; */
+    align-content: center;
+ }
+
+.navbar {
+    background: linear-gradient(rgb(172, 193, 161),rgb(237, 199, 220));    
+    opacity: 90%;
+ }
+ 
+#birthday_message {
+    x: 350px;
+    y: 250px;
+    width: 700px;
+    height: 300px;
+    display: none;
+    background-image: url(./resources/image/pink_bg_bday_msg.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-color: rgb(172, 193, 161);
+    color: red !important;    
+    /* font-size: 30px; */
+    box-shadow: 0 8px 16px 10px rgba(0,0,0,0.4);
+    align-content: center;
+    text-align: center;        
+}
