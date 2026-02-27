@@ -1,0 +1,15 @@
+#to-do-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    box-shadow: 0 0 8px 2px #ccc;
+    margin: 20px 100px 40px 250px;
+    left: 20%;
+    right: 2%;
+    
+}
+
+.todo-table-header {
+    background-color: rgb(212, 227, 182);
+}

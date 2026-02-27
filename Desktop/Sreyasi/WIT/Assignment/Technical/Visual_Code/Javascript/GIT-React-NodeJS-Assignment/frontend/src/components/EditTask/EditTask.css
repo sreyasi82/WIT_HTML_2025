@@ -1,0 +1,19 @@
+.edittask_form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: fixed;        
+    height:auto;
+    width:350px;
+    left: 40%;
+    top: 20%;    
+    background-color: #f6d6ea;
+    box-shadow: 0 0 8px 2px #ccc;
+    padding: 50px;   
+    transform: 'translate(-50%, -50%)';
+    z-index: 1000;    
+}
+label {    
+    font-weight: bold;
+}
